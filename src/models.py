@@ -29,6 +29,15 @@ class characters(Base):
     skills = Column(String(250))
     height = Column(String(250))
     spectes = Column(String(250))
+    weight = Column(String(250))
+    Weaknesses = Column(String(250))
+    agility = Column(String(250))
+    strength = Column(String(250))
+    hobbies = Column(String(250))
+    weapons = Column(String(250))
+
+
+
 
 
 class favorite_characters(Base):
@@ -50,6 +59,10 @@ class planets(Base):
     gravity = Column(String(250))
     climate = Column(String(250))
     composition = Column(String(250))
+    water = Column(String(250))
+    Moons = Column(String(250))
+    kinds_of_life = Column(String(250))
+
 
 
 class favorite_planets(Base):
@@ -70,6 +83,9 @@ class vehicles(Base):
     size = Column(String(250))
     speed = Column(String(250))
     fuel = Column(String(250))
+    capacity_of_people_in_vehicle = Column(String(250))
+
+
   
 
 
